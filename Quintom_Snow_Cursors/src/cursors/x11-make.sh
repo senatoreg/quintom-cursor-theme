@@ -81,5 +81,7 @@ while read t l ; do
   ln -s "${t}" "${DIR}/${THEME}/cursors/${l}"
 done < ../x11-links.txt
 
+cp ../cursor.theme "${DIR}/${THEME}"
+
 # go back up one
 cd ..
